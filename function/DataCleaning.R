@@ -1,4 +1,4 @@
-dat<-read.csv("HW9.csv")
+dat<-read.csv("DHSMini.csv")
 lengthnoNA<-function(x){
   length(x[-which(is.na(x))])
 }
