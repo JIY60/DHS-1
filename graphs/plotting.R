@@ -2,7 +2,7 @@
 #and plot the number of family members that utilize mental health services in each case. Put this in: Plotting.R
 
 PlotByTime<-function(time, count){
-  time<as.numeric(time)
+  time<as.numeric(time) # should be <- , miss "-"
   time<-sort(time)
   plot(time, count, type="o")
 }
